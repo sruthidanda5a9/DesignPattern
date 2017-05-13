@@ -1,0 +1,20 @@
+Till now we did simple strategy pattern to add behaviour to ducks.
+so our main method considers only the quackable ducks.
+but we have horse near us. an dis willing to join the group. 
+To addpt horse to duck we need to use adapter pattern.
+
+
+But we would like to count the number f ducks.
+so we need to add decorater to count the number of ducks.
+
+till now we are adding decorations to count the number of ducks everything fine but if we forgot to add
+that decoartion tha will be mess. Why to do that with our hand.
+lets use factory pattern to create the objects and add decoarations for us.
+
+Till now everything going great but we have plenty of ducks then why are you creating them manulaly and each everytime you are calling
+quck method of that.
+
+even though you encapsulated the quakc call . its bettre to use compisit pattern to
+avoid too many quck calls.
+
+for for every quck of the duck quackable team needa an update of it This can be achieved by observable pattern.
